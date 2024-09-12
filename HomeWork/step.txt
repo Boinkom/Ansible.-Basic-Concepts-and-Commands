@@ -1,0 +1,14 @@
+1. Создал виртуальную машину с помощью Vagrant:
+   - Выполнил команду `vagrant up` для создания и запуска VM на основе Vagrantfile.
+
+2. Подготовил Ansible инвентарь:
+   - Добавил IP и параметры подключения виртуальной машины в файл inventory.yml.
+
+3. Создал playbook для установки LAMP и Wordpress:
+   - В playbook.yml добавлены задачи для установки Apache, PHP, MySQL и Wordpress.
+
+4. Запустил Ansible playbook:
+   - Выполнил команду `ansible-playbook -i inventory.yml playbook.yml` для развертывания окружения.
+
+5. Логи выполнения:
+   Логи выполнения сохранены в файле ansible_logs.txt.
